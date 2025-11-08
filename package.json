@@ -1,0 +1,32 @@
+{
+  "name": "otonom-bot-paneli-v2",
+  "version": "2.0.0",
+  "description": "AI-powered autonomous bot panel with self-healing capabilities",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "setup": "powershell -ExecutionPolicy Bypass -File ./scripts/setup.ps1"
+  },
+  "keywords": [
+    "automation",
+    "bot",
+    "playwright",
+    "ollama",
+    "ai",
+    "captcha-solver",
+    "self-healing",
+    "typescript",
+    "react",
+    "nodejs"
+  ],
+  "author": "tekdemirfatih93-tech",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

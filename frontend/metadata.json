@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Otonom Bot Paneli",
+  "description": "Coinpayu gibi platformlarda reklam izleme, anket doldurma ve teklif tamamlama gibi görevleri otomatikleştiren asistan botlarını yönetin.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
